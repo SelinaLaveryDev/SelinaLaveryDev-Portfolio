@@ -261,6 +261,7 @@ margin-bottom: 1rem;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    padding: 0 2rem
 }
 
 .about-details-container {
@@ -283,7 +284,7 @@ margin-bottom: 1rem;
     bottom: 2.5rem;
 }
 
-.details-containers {
+.details-container {
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -400,7 +401,7 @@ article .icon {
 .contact-info-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 0.5rem;
     margin: 1rem;
 }
@@ -411,6 +412,7 @@ article .icon {
 
 .contact-icon {
     cursor: default;
+    margin: 0.2rem;
 }
 
 .email-icon {
